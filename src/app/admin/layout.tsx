@@ -11,7 +11,9 @@ export default async function AdminLayout({
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect("/admin/login");
+  if (!user) redirect("/login");
 
-  return <div>{children}</div>;
+  return <div className="container px-5">{children}</div>;
 }
+
+
