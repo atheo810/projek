@@ -8,7 +8,7 @@ export default async function BlogPage() {
     .order("created_at", { ascending: false });
 
   return (
-    <main className="container mx-auto py-16">
+    <main className="container mx-auto px-5 py-16">
       <h1 className="text-3xl font-bold mb-8">Blog</h1>
       <div className="flex flex-col gap-4">
         {posts?.map((post) => (
