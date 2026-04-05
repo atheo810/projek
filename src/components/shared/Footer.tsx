@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 export default function Footer() {
   return (
     <footer>
-      <div className="container py-8 flex flex-col gap-4">
+      <div className="container px-4 py-8 flex flex-col gap-4">
         <Separator />
         <div className="flex justify-between items-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Muhammad Patriot Bayu Santosa</p>
